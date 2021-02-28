@@ -37,7 +37,7 @@ console.log(environment.id)
   this.router.navigate(['/inicio'])
 
 },erro =>{
-  if(erro.status == 500){
+  if(erro.status == 500)   {
     alert('Usuario ou senha estao incorretos')
   }
 })
