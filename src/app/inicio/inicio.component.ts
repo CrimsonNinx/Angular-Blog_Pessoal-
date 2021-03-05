@@ -1,3 +1,4 @@
+import { templateJitUrl } from '@angular/compiler';
 import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
 import { environment } from 'src/environments/environment.prod';
@@ -25,6 +26,9 @@ export class InicioComponent implements OnInit {
 
    user:User = new User()
    idUser =environment.id
+
+   key = 'data'
+   reverse =true
 
   constructor(
     private router: Router,
